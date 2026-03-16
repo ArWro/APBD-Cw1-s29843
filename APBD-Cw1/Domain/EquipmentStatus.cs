@@ -1,6 +1,8 @@
 ﻿namespace APBD_Cw1.Domain;
 
-public class EquipmentStatus
+public enum EquipmentStatus
 {
-    
+    Available,
+    Rented,
+    Unavailable
 }

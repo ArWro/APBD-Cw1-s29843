@@ -1,6 +1,9 @@
 ﻿namespace APBD_Cw1.Domain;
 
-public class Employee
+public sealed class Employee : User
 {
-    
+    public Employee(string id, string firstName, string lastName)
+        : base(id, firstName, lastName, UserType.Employee)
+    {
+    }
 }

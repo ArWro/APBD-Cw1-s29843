@@ -1,6 +1,7 @@
 ﻿namespace APBD_Cw1.Domain;
 
-public class UserType
+public enum UserType
 {
-    
+    Student,
+    Employee
 }
